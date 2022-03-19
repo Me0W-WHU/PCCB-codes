@@ -1,0 +1,2 @@
+- You can memset a matrix to -1 or 0, because all of their binary digits are the same, but you cannot memset a matrix to other values such as 1.
+- You can see that doing dp is basically just constructing a parameter-value table corresponding to you recursive function.
