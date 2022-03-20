@@ -9,7 +9,7 @@ int N, W;
 int v[MAX], w[MAX];
 int dp[MAX][MAX_W];
 
-// i: current processing object; j: remaining space
+// dp[i][j]: maximum value when considering object i ~ object (n - 1) and with j spaces left.
 int max_val(int i, int j) {
     if (dp[i][j] != -1) return dp[i][j];
     else if (i == N) return 0;
