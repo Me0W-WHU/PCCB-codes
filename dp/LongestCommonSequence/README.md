@@ -1,0 +1,1 @@
+- dp[i][j] refers to the LCS of 'first i characters of string s' & 'first j characters of string t'. s[i] & t[i] will be taken into account while calculating dp[i+1][i+1].
