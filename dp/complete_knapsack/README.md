@@ -1,0 +1,3 @@
+- solution1: Goes with O(n*w2) time complexity.
+- solution2: Reduce time complexity to O(n*w). Very similar to 01 knapsack problem, but with a slight difference in recurrence relation.
+- solution3: Reduce space complexity by using an array instead of a matrix. This is correct since you should be using each element only once and elements' usage always precedes their modification.
