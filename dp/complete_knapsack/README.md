@@ -1,3 +1,4 @@
 - solution1: Goes with O(n*w2) time complexity.
 - solution2: Reduce time complexity to O(n*w). Very similar to 01 knapsack problem, but with a slight difference in recurrence relation.
-- solution3: Reduce space complexity by using an array instead of a matrix. This is correct since you should be using each element only once and elements' usage always precedes their modification.
+- solution3: Reduce space complexity by using an array instead of a matrix. This is correct since you should be using each element only once.
+    - In the case of complete knapsack, the elements' modification precedes their usage. In contrast, If you change the direction of update (from 0 -> W to W -> 0) then the elements would be used before they're modified, which means the addition term comes from the result of **last iteration**, leading to the solution of 0/1 knapsack problem.
